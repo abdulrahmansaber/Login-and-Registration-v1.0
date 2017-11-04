@@ -1,0 +1,27 @@
+/* Login Form */
+.login-form {
+  border: none;
+  .header {
+    background-color: #3498db;
+    h1 { color: #FFF; }
+  }
+  form {
+    button {
+      background-color: #3498db;
+      &:hover { background-color: #2980b9; }
+      width: 100%; 
+    }
+    input {
+      &:focus {
+        box-shadow: none !important;
+        border: 1px solid #3498db;
+      }
+    }
+    label:not(.flexed) {
+      font-size: 15px;
+      font-weight: 100;
+      color: #111;
+      text-transform: uppercase;
+    }
+  }
+}

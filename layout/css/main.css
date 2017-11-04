@@ -1,0 +1,57 @@
+/* Default Theme File */
+.login-form {
+  width: 45%;
+  margin: 35px auto;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+}
+.login-form .header {
+  padding: 18px;
+  border-radius: inherit;
+  background-color: #f1f1f1;
+}
+.login-form .header h1 {
+  font-size: 35px;
+  text-align: center;
+  color: #444;
+}
+.login-form form {
+  padding: 15px;
+}
+.login-form form input, .login-form form label {
+  display: block;
+}
+.login-form form input:not([type='checkbox']) {
+  width: 100%;
+  margin: 4px 0 15px;
+  transition: none;
+}
+.login-form form input:not([type='checkbox']):focus {
+  box-shadow: 0 0 1px 2px rgba(88, 144, 255, 0.75), 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+.login-form form input[type='checkbox'] {
+  margin-bottom: 15px;
+}
+.login-form form .flexed {
+  display: flex;
+  font-weight: 100;
+  color: #222;
+  cursor: pointer;
+}
+.login-form form .flexed input {
+  margin-right: 11px;
+  margin-top: 3.8px;
+}
+.login-form form label {
+  font-weight: 800;
+  color: #4c4a4a;
+}
+.login-form form button {
+  padding: 13px 25px;
+  text-transform: uppercase;
+}
+.login-form form button:hover {
+  box-shadow: 0 2.8px 4px -2px #636060;
+}
+
+/*# sourceMappingURL=main.css.map */
